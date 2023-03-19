@@ -8,6 +8,7 @@ export type FeaturesType = {
   icon: string;
   title: string;
   content: string;
+  index?: number;
 };
 
 export type FeedbackType = {
