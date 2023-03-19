@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
         {navLinks.map((nav: any, index: number) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal text-[16px] text-white ${
+            className={`font-poppins font-normal text-[16px]  hover:text-red-700 text-white ${
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             } `}
           >
