@@ -12,7 +12,7 @@ export type FeaturesType = {
 };
 
 export type FeedbackType = {
-  id: string;
+  id?: string;
   content: string;
   name: string;
   title: string;
