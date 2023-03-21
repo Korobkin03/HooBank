@@ -1,7 +1,7 @@
 import React from "react";
 
 type ButtonProps = {
-  styles: string;
+  styles?: string;
 };
 
 const Button: React.FC<ButtonProps> = (styles) => (
